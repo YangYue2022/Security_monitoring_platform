@@ -1,0 +1,2 @@
+# Security_monitoring_platform
+基于rtmp协议的安全监控平台
