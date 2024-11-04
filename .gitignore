@@ -2,3 +2,5 @@
 *.mp4
 项目指导说明书v2024.md
 *.conf
+/pythonProject/.idea/*
+/前端/.idea/*
