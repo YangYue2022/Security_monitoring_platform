@@ -3,13 +3,9 @@
 
 🙌小学期项目
 
-目前的问题：延时
-
 ## 搭建推拉流服务器
 
 1、租一个linux云服务器
-
-![image-20240620213614550](https://serena-typora-img.oss-cn-beijing.aliyuncs.com/202411041130905.png)
 
 <img src="https://serena-typora-img.oss-cn-beijing.aliyuncs.com/202411041130940.png" alt="image-20240620213457449" />
 
@@ -79,8 +75,6 @@ cd nginx-1.10.3/
 ./configure --prefix=/usr/local/nginx --with-debug --with-pcre=../pcre-8.35 --with-zlib=../zlib-1.3.1 --with-openssl=../openssl-1.0.2k --add-module=../nginx-rtmp-module-master
 vim objs/Makefile
 ```
-
-![image-20240620221505332](https://serena-typora-img.oss-cn-beijing.aliyuncs.com/202411041130914.png)
 
 （4）编译安装
 
@@ -201,16 +195,6 @@ opencv-python~=3.4.9.33
 dlib~=19.24.0
 flask~=2.1.1
 pillow~=9.5.0
-```
-
- 安装dlib时可能会报错
-
-![image-20240625142221381](https://serena-typora-img.oss-cn-beijing.aliyuncs.com/202411041130930.png)
-
-可以执行下面命令下载
-
-```
-conda install -c https://conda.anaconda.org/conda-forge dlib
 ```
 
 在pycharm中使用对应的环境
